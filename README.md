@@ -44,7 +44,7 @@ VMware workstation, specifically the `vmware-vdiskmanager.exe` file.
 2. In "Settings > Other settings > ADB debugging" choose "Open local connection", also make sure Root Permission is enabled.
 3. Without closing the emulator, run `StorageClear.bat`.
 4. Figure out the ID of the LDPlayer instance you want to shrink by going to LDMultiPlayer and checking the IDs.
-   ![Screenshot (161)](Images/DiskGenius.png)
+   ![Screenshot (161)](Images/LDMultiPlayer.png)
 5. Close LDPlayer completely and run `Shrink.bat`, it'll ask for the ID acquired in the previous step.
 
 - The same steps apply for the Data version of the batch files (`StorageClearData.bat` and `ShrinkData.bat`)
