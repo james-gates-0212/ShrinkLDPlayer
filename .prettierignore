@@ -1,0 +1,22 @@
+# Ignore artifacts
+.DS_Store
+.env
+.gitignore
+.prettierignore
+build
+dist
+frontend
+node_modules
+
+# Ignore files
+*.gif
+*.ico
+*.jpeg
+*.jpg
+*.lock
+*.png
+*.svg
+*.txt
+*.webp
+*.woff
+*.woff2

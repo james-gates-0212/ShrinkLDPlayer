@@ -1,0 +1,30 @@
+{
+  "name": "shrink-ldplayer",
+  "version": "1.0.0",
+  "description": "Shrink LDPlayer vmdk & data",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky",
+    "commitlint": "commitlint --edit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james-gates-0212/ShrinkLDPlayer.git"
+  },
+  "keywords": [
+    "shrink",
+    "ldplayer"
+  ],
+  "author": "James Gates",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/james-gates-0212/ShrinkLDPlayer/issues"
+  },
+  "homepage": "https://github.com/james-gates-0212/ShrinkLDPlayer#readme",
+  "devDependencies": {
+    "commitlint": "^19.4.1",
+    "commitlint-config-gitmoji": "^2.3.1",
+    "husky": "^9.1.5",
+    "prettier": "^3.3.3"
+  }
+}
