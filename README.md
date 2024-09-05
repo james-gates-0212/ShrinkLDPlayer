@@ -30,7 +30,7 @@ VMware workstation, specifically the `vmware-vdiskmanager.exe` file.
 
 1. In DiskGenius, go to `Disk > Open Virtual Disk File` and choose the VMDK you want to shrink. (VMDKs are saved at \LDPlayer\LDPlayer9\vms\leidian#, # being the id of the instance (taken from ldmultiplayer), for example leidian1, leidian1 etc.).
 2. Under Partitions, right-click the larger partition and choose `Erase Free Space`. Keep the settings unchanged and then click Erase.\
-   ![Screenshot (164)](Images/DiskGenius.png)
+   ![DiskGenius](Images/DiskGenius.png)
 3. Wait until it says Complete instead of Cancel and close the app. (This part might take quite some time and it might look like it's stuck but don't worry, if you see that it's using cpu in task manager then it's still working).
 4. In file explorer, go to where `vmware-vdiskmanager.exe` is, right-click and choose open in terminal (or cmd or powershell).
 5. Use the command `vmware-vdiskmanager.exe -k C:\Path\to\file.vmdk` (for cmd) or `& vmware-vdiskmanager.exe -k C:\Path\to\file.vmdk` (for Powershell) and replace C:\Path\to\file.vmdk with the path to the VMDK you're shrinking.
@@ -44,7 +44,7 @@ VMware workstation, specifically the `vmware-vdiskmanager.exe` file.
 2. In "Settings > Other settings > ADB debugging" choose "Open local connection", also make sure Root Permission is enabled.
 3. Without closing the emulator, run `StorageClear.bat`.
 4. Figure out the ID of the LDPlayer instance you want to shrink by going to LDMultiPlayer and checking the IDs.
-   ![Screenshot (161)](Images/LDMultiPlayer.png)
+   ![LDMultiPlayer](Images/LDMultiPlayer.png)
 5. Close LDPlayer completely and run `Shrink.bat`, it'll ask for the ID acquired in the previous step.
 
 - The same steps apply for the Data version of the batch files (`StorageClearData.bat` and `ShrinkData.bat`)
